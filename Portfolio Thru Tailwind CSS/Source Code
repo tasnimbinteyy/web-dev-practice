@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body>
+    
+    <header >
+        <nav class="w-100 h-20 bg-cyan-950 flex gap-x-8 ">
+            <div>
+               <a href=""> <img src="logo.png" class=" ml-4 mt-4 h-15 w-12 place-items-center" alt=""></a>
+            </div>
+
+            <ul class="flex place-items-center gap-x-8 text-sm pl-80 ml-[450px] text-white">
+                <li><a href="\About" class="hover:underline">About</a></li>
+                <li><a href="\Skills" class="hover:underline">Skills</a></li>
+                <li><a href="\Project" class="hover:underline">Projects</a></li>
+                <li><a href="\Contact" class="hover:underline">Contact</a></li>
+            </ul>
+
+            <button class=" mt-7 mb-4 ml-3 bg-white w-20 h-7 hover:bg-amber-200 text-sm border border-white-100">
+                More
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="bg-neutral-200 flex">    
+            <div class="h-[500px]">
+
+                <h1 class="pt-[170px] pl-[80px] text-2xl font-bold ">Hi,I'm Tasnim <br>Web Developer | Problem Solver </h1>
+                <h3 class="pt-[20px] pl-[80px] text-sm">I’m a CSE student passionate about turning ideas into powerful web applications. <br>Whether it’s frontend design or backend logic, I enjoy writing clean code,building useful projects,<br> and constantly learning new technologies.</h3>
+
+                <button class="bg-gray-700 border border-black text-white shadow-md shadow-black text-sm  h-[30px] w-[120px] mt-[60px] ml-[80px] rounded-xl hover:bg-gray-800">
+                    Download CV
+                </button>
+
+                <button class="bg-white border border-black shadow-md shadow-black text-black text-sm h-[30px] w-[120px] ml-[10px] rounded-xl  hover:bg-gray-400">
+                    Hire me
+                </button>
+            </div>
+
+            <div class="h-[300px] w-[300px] ml-[180px] mt-[100px]">
+                    <img src="tasnim_img.jpg" alt="tasnim-img" class="rounded-full">
+            </div>
+
+ 
+          
+        </section>
+
+        <section class="bg-neutral-100 h-[700px]">
+            
+            <h1 class="text-center font-bold text-lg pt-[90px]">My Skills</h1>
+            <div class=" flex  justify-evenly">
+            
+                <div class="w-[150px] h-[142px] mt-[90px] place-items-center shadow-black shadow-md"><img src="images.jpeg" alt="HTML & CSS"> 
+                 <ul class="w-[100px] h-[25px] mt-5 bg-amber-900 text-center text-sm text-white rounded-lg shadow-black shadow-sm hover:underline">HTML & CSS</ul></div>
+            
+                <div class="w-[150px] h-[150px] mt-[90px] place-items-center shadow-black shadow-md"><img src="Javascript.png" alt="Javascript"> 
+                 <ul class="w-[100px] h-[25px] mt-5 bg-amber-900 text-center text-sm text-white rounded-lg shadow-black shadow-sm hover:underline">Javascript</ul></div>
+            
+                <div class="w-[150px] h-[150px] mt-[90px] place-items-center shadow-black shadow-md"><img src="Next_JS.jpeg" alt="Next.JS"> 
+                <ul class="w-[100px] h-[25px] mt-5 bg-amber-900 text-center text-sm text-white rounded-lg shadow-black shadow-sm hover:underline">NEXT.JS</ul></div>
+            </div>
+           
+            
+            <div class=" flex  justify-evenly mt-[140px]">
+
+                <div class="w-[150px] h-[146px] place-items-center shadow-black shadow-md"><img src="Python1.jpg" alt="Python">
+                 <ul class="w-[100px] h-[25px] mt-5 bg-amber-900 text-center text-sm text-white rounded-lg shadow-black shadow-sm hover:underline">Python</ul></div>
+
+              <div class="w-[150px] h-[150px] place-items-center shadow-black shadow-md"><img src="C++.png" alt="C++">
+                 <ul class="w-[100px] h-[25px]  mt-5 bg-amber-900 text-center text-sm text-white rounded-lg shadow-black shadow-sm hover:underline">C++</ul></div>
+            </div>
+        </section>
+
+        <section class="h-[550px] bg-neutral-100">
+            <h1 class="text-center text-lg font-bold pt-[90px]"> My Projects</h1>
+
+            <div class="flex justify-evenly pt-[70px] text-white">
+                <div class="w-[490px] h-[280px] bg-cyan-950 rounded-lg shadow-black shadow-sm">
+                    <img src="Java Project.jpeg" alt="calculator" class="mt-[30px] ml-[20px] w-[190px] h-[100px] ">
+                    <ul class="text-md font-bold pl-[20px] pt-[10px]">Scientific Calculator with GUI(Java Swing) </ul>
+                    <p class="text-sm pl-[20px] pt-[5px]">Description of project 1: Develop a scintific calculator using the Java Swing framework.</p>
+                    <button class="h-[30px] w-[100px] bg-gray-300 m-[20px] text-black text-sm rounded-sm hover:bg-gray-100 focus:outline-2 border border-white">
+                        View Project
+                    </button>
+                </div>
+                <div class="flex justify-evenly text-white">
+                <div class="w-[490px] h-[280px] bg-cyan-950 rounded-lg shadow-black shadow-sm">
+                    <img src="Amazon clone.jpeg" alt="calculator" class="mt-[30px] ml-[20px] w-[190px] h-[100px] ">
+                    <ul class="text-md font-bold pl-[20px] pt-[10px]">Amazon Clone (Front-End) </ul>
+                    <p class="text-sm pl-[20px] pt-[5px]">Description of project 2: A responsive Amazon homepage clone built using only HTML and CSS, replicating its layout and design.</p>
+                    <button class="h-[30px] w-[100px] bg-gray-300 m-[20px] text-black text-sm rounded-sm hover:bg-gray-100 focus:outline-2 border border-white">
+                        View Project
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="h-[400px] bg-neutral-100">
+            <h1 class="text-center text-lg font-bold">Contact Me</h1>
+            <p class="text-center text-xs">If you want to work with me, feel free to watch out!</p>
+            
+            <div class=" grid justify-center">    
+                <div class="w-[300px] h-[30px] bg-white text-sm text-gray-500 pl-2 border border-stone-400 rounded-sm pt-1 mt-4">Please enter your name</div>
+                <div class="w-[300px] h-[30px] bg-white text-sm text-gray-500 pl-2 border border-stone-400 rounded-sm pt-1 mt-4">Please enter your email</div>
+                <div class="w-[300px] h-[30px] bg-white text-sm text-gray-500 pl-2 border border-stone-400 rounded-sm pt-1 mt-4">Please enter your password</div>
+                <div class="w-[300px] h-[70px] bg-white text-sm text-gray-500 pl-2 border border-stone-400 rounded-sm pt-1 mt-4">Enter your massage</div>
+
+                <button class="w-[300px] h-[25px] bg-red-950 text-xs  text-center text-gray-100 border border-stone-900 pt-1 pb-1 mt-4 hover:bg-cyan-800 focus:outline-2 focus:outline-offset-2">Send message</button>
+            </div>
+        </section>
+    </main>
+    <footer class="w-100 h-[240px] bg-slate-900">
+        <div class="flex justify-evenly">
+            <div class="mt-[50px] h-[120px] w-[180px] border-l-2 border-gray-200 rounded-sm"">
+                <h1 class="text-md text-white font-bold ml-[10px]">Tasnim Bintey Naser</h1>
+                <p class="text-xs text-gray-200 mt-[15px] ml-[10px] hover:underline">Chittagong, Bangladesh <br> tasnimjannat146@gamil.com</p></div>
+
+            <div class="mt-[50px] h-[120px] w-[180px] border-l-2 border-gray-200 rounded-sm">
+                <h1 class="text-md text-white font-bold ml-[10px]">Quick Links</h1>
+                <div class="mt-2 text-gray-200 text-sm grid ml-[10px]">
+                    <a href="About" class="hover:underline">About</a>
+                    <a href="Skills" class="hover:underline">Skills</a>
+                    <a href="Projects" class="hover:underline">Projects</a>
+                    <a href="Contact" class="hover:underline">Contact</a>
+                </div>
+            </div>
+        
+            <div class="mt-[50px] h-[120px] w-[180px] border-l-2 border-gray-200 rounded-sm">
+                <h1 class="text-md text-white font-bold ml-[10px]">Follow Me</h1>
+                <div class="flex mt-[15px]">
+                    <img src="Linkedin.png" alt="Linkedin" class="h-[35px] w-[35px] ml-[10px]">
+                    <img src="Github1.png" alt="Github" class="h-[35px] w-[35px] ml-[10px]">
+                    <img src="gmail.png" alt="mail" class="h-[35px] w-[35px] ml-[10px]">
+                </div>
+            </div>
+
+        </div>
+        
+            <h3 class="text-xs text-white text-center pt-[30px]">Keep learning, keep building 🚀</h3>
+    </footer>
+</body>
+</html>
