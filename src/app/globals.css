@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.NotFound{
+    color: brown;
+    margin-top: 300px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.Navbar li{
+    color: chocolate;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    list-style-type: none; 
+}
+
+.active {
+    color: red;
+}
