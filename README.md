@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# web-dev-practice
+This repository contains all of my web development practice projects as I learn and grow my skills in HTML, CSS, JavaScript, and beyond. It’s a collection of mini websites, experiments, and creative ideas built while exploring different aspects of frontend development.
+>>>>>>> 0700cbdee7756de73356c7d85f8a00f69c6bcc1d
